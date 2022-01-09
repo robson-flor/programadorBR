@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+}
+
+.fundo{
+  background-image: url(../images/ios.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-attachment: fixed;
+}
+p{
+  color: white;
+}

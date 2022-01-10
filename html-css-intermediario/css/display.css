@@ -1,3 +1,11 @@
 *{
   border: 1px solid red;
 }
+span{
+  display: inline-block;
+  background-color: green;
+  width: 400px;
+}
+img{
+  visibility: hidden;
+}

@@ -1,0 +1,37 @@
+/* ul{
+  list-style-image: url(../FAVICON/favicon-16x16.png);
+  list-style-position: inside;
+  background-color: #f3e;
+  padding: 10px;
+  margin: 0;
+}
+ol{
+  list-style: upper-alpha;
+  list-style-position: inside;
+  background-color: #59e;
+  padding: 10px;
+  margin: 0;
+}
+li{
+  border: 1px solid;
+  margin: 5px;
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: green;
+} */
+
+.item-fundo{
+  list-style: none;
+  background-image: url(../images/ios.jpg);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 45px;
+  margin-top: 2px;
+}

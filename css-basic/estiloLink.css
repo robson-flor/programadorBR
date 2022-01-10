@@ -1,0 +1,20 @@
+.links{
+  text-decoration: none;
+  color: rgb(0, 4, 252);
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border: 2px solid #f70000;
+}
+.links:hover{
+  background-color: #b0d66a;
+  color: green;
+}
+.links:visited{
+  border-color: #ddd;
+  color: blueviolet;
+}
+.links:active{
+  color: white;
+}

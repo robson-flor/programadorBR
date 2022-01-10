@@ -1,6 +1,4 @@
-body{
-  background-color: black;
-}
+
 
 .fundo{
   background-image: url(../images/ios.jpg);
@@ -9,6 +7,19 @@ body{
   height: 100%;
   background-attachment: fixed;
 }
-p{
-  color: white;
+.azul{
+  background-color: blue;
 }
+.verde{
+  background-color: green;
+}
+.vermelho{
+  background-color: red;
+}
+.sobre{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+

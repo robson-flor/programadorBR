@@ -1,0 +1,9 @@
+.upper{
+  color: red;
+  text-transform: uppercase;
+}
+
+.justify{
+  text-align: justify;
+  text-indent: 35px;
+}

@@ -6,4 +6,10 @@
 .justify{
   text-align: justify;
   text-indent: 35px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 5px black;
+}
+.pzinho{
+  white-space: pre-wrap;
 }

@@ -1,0 +1,15 @@
+.container{
+  border: 1px solid;
+  overflow: auto;
+  padding: 5px;
+  background-color: #000;
+  border-radius: 5px;
+}
+img{
+  float: left;
+  margin-right: 5px;
+}
+p{
+  color: aliceblue;
+  text-align: justify;
+}

@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+overflow: hidden;
+margin: auto;
+width: 80%;
+padding: 15px;
+background-color: rgb(61, 78, 175);
+color: white;
+}
+.logo{
+  float: left;
+}
+
+.menu{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+li{
+  float: left;
+  margin-left: 15px;
+}
+/* ---------MEDIA-------- */
+@media screen and (max-width: 700px) {
+  .header {
+    background-color: burlywood;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header{
+    background-color: yellowgreen;
+  }
+  .logo{
+    float: none;
+    text-align: center;
+  }
+  .menu{
+    margin-top: 20px;
+    float: none;
+    text-align: center;
+  }
+  li{
+    float: none;
+    background-color: rgba(58, 55, 55, 0.63);
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}

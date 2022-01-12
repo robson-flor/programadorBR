@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.header{
+width: 80%;
+padding: 15px;
+margin: auto;
+background-color: cadetblue;
+overflow: hidden;
+color: aliceblue;
+}
+.logo{
+float: left;
+
+}
+.menu{
+float: right;
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+li{
+float: left;
+margin-left: 15px;
+
+}
+@media screen and (max-width:500px) {
+  .header {
+    background-color: rgba(17, 49, 2, 0.568);
+  }
+  .logo {
+    float: none;
+    text-align: center;
+    
+  }
+  .menu{
+    float: none;
+    text-align: center;
+    margin-top: 20px;
+  }
+  li{
+    float: none;
+    background-color: brown;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../assets/sierra.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.formulario{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 38%;
+transform: translate(-50%, -50%);
+padding: 50px;
+float: center;
+margin: auto;
+overflow: hidden;
+background:#81cefd;
+background: -webkit-linear-gradient(to right, #81cefd, #ffffff);
+background: linear-gradient(to right, #81cefd, #ffffff);
+border-radius: 5px;
+box-shadow: 5px 5px 25px 15px rgb(71, 70, 70);
+opacity: 0.9;
+}
+h1{
+  font-size: 1em;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  color: #0044ff;
+}
+.form{
+  position: relative;
+  display: inline-block;
+  
+  
+}
+#search{
+  width: 80%;
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid rgb(2, 38, 241);
+}
+#pesquisar{
+float: right;
+margin-top: 15px;
+border-radius: 5px;
+background-color: #0044ff;
+color: white;
+padding: 5px;
+border: 1px solid #0044ff;
+}
+.box-inside{
+  position: absolute;
+  padding: 30px;
+  top: 90%;
+  right: 50%;
+  transform: translate(50%);
+
+}
+.svg li a img {
+
+  position: relative;
+  width: 40px;
+  margin-left: 20px;
+  transition: .2s
+}
+.svg li a:hover img{
+  transform: scale(1.2) translateY(-10px);
+}
+li{
+  list-style: none;
+  float: left;
+}

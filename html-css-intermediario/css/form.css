@@ -77,3 +77,6 @@ li{
   list-style: none;
   float: left;
 }
+@media screen and (max-width:500px) {
+  
+}

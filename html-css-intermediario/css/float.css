@@ -1,4 +1,4 @@
-.container{
+/* .container{
   border: 1px solid;
   overflow: auto;
   padding: 5px;
@@ -12,4 +12,18 @@ img{
 p{
   color: aliceblue;
   text-align: justify;
+} */
+
+div{
+  border: 1px solid;
+  overflow: auto;
+  background-color: #c4dfe6;
+  padding: 10px;
+}
+.imagem1 {
+  float: left;
+}
+
+.parag {
+  
 }

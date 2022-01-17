@@ -11,7 +11,10 @@
     background-color: red;
   }
   .quadrado-blue{
-    background-color: blue;
+  position: relative;
+  left: 400px;
+  top: 200px;
+  background-color: blue;
   }
   .quadrado-green{
     background-color: green;

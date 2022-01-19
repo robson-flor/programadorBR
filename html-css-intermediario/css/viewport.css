@@ -1,3 +1,6 @@
+body{
+  background-color: rgba(37, 114, 128, 0.89);
+}
 .header{
   position: relative;
   margin: auto;
@@ -16,7 +19,7 @@
   transform: translate(-50%, -50%);
   color: white;
   text-align: center;
-  font-size: 6vw;
+  font-size: 2rem;
   
   
 }

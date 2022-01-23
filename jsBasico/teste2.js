@@ -16,13 +16,13 @@ function passou(media) {
   }
 }
 
-for (var index in names) {
-  var nota1 = grade1[index];
-  var nota2 = grade2[index];
+for (var i in names) {
+  var nota1 = grade1[i];
+  var nota2 = grade2[i];
   var m = media(nota1, nota2);
 
   console.log(
-    names[index] + " - primeira nota: ",
+    names[i] + " - primeira nota: ",
     nota1 + ", segunda nota: " + nota2 + " media: " + m+" - "+passou(m)
   );
 }

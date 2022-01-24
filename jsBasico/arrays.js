@@ -1,7 +1,9 @@
+// um jeito de criar array
 var alunos = new Array("Igor", "Jose", "Marcos", "Mariana");
 
 console.log(alunos[0]);
 
+// outro jeito de criar array
 var student = ["Igor", "Jose", "Marcos", "Mariana"];
 
 for (i = 0; i < student.length; i++){

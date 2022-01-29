@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>temporizador</title>
+
+  <script>
+    var numero = 0;
+    var timer;
+
+    function atualizarText() {
+      let h = document.getElementsByTagName("h1")[0];
+      h.innerHTML += " " + numero;
+      numero++;
+
+    }
+
+    function iniciar() {
+
+      timer = setTimeout(atualizarText, 1000);
+    }
+    function parar() {
+      clearInterval(timer);
+    }
+
+  </script>
+
+</head>
+
+<body>
+  <h1>Titulo</h1>
+  <input onclick="iniciar()" type="submit" name="" id="" value="Iniciar">
+  <input onclick="parar()" type="submit" name="" id="" value="parar">
+
+
+
+</body>
+
+</html>

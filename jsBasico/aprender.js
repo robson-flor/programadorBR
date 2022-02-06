@@ -169,9 +169,281 @@
 
 // console.log(vetor[0]);
 
-let alunos = ["Igor", "Jose", "Marcos", "Mariana", "Joana","Leo","Joao"];
+// let alunos = ["Igor", "Jose", "Marcos", "Mariana", "Joana","Leo","Joao"];
 
-for (i of alunos){
-  console.log(i);
-}
-console.log("array percorrido com sucesso. Fim.")
+// for (i of alunos){
+//   console.log(i);
+// }
+// console.log("array percorrido com sucesso. Fim.")
+
+// function media(n1, n2) {
+//   let nota1 = n1;
+//   let nota2 = n2;
+//   let media = (n1 + n2) / 2;
+//   console.log(".................................");
+// console.log("Sua media foi: " + media);
+//   console.log("sua nota da primeira prova foi: " + nota1);
+//   console.log("Sua nota da segunda prova foi: " + nota2);
+//   console.log(".................................");
+
+//   return media;
+// }
+
+// resultado1 = media(8.1, 9.0);
+// resultado2 = media(8.3, 5.7);
+
+// console.log("resultado 1 = " + resultado1)
+// console.log("resutaldo 2 = "+resultado2)
+
+// function saudacao() {
+//   return "Ola mundo!";
+// }
+
+// var s = saudacao;
+// console.log(s());
+
+// function media(n1, n2) {
+//   var nota1 = n1;
+//   var nota2 = n2;
+//   var media = (nota1 + nota2) / 2;
+//   return media;
+// }
+// var res = media(7.3, 5.8)
+// console.log(res)
+
+// var m = media;
+// var res2 = m(2, 3)
+// console.log(res2)
+
+// var media = (n1,n2) => {
+//   return (n1 + n2) / 2;
+// }
+// console.log(media(5, 6));
+
+// lista com nome do aluno, separado por nota 1 , nota 2 e media, posso ter tambem um valor falando se esta aprovado ou reprovado.
+
+// var alunos = ["Igor", "Maria", "Jose", "Mariana", "Joao", "Leo"];
+// var nota1 = [5.6, 7.6, 4.8, 6.0, 8.6, 9.0];
+// var nota2 = [8.6, 8.9, 5.8, 8.0, 7.4, 6.6];
+
+// function media(n1, n2) {
+//   return (n1 + n2) / 2;
+// }
+
+// function passou(media) {
+//   if (media > 7) {
+//     return "aprovado";
+//   } else {
+//     return "reprovado";
+//   }
+// }
+
+// for (i in alunos) {
+//   var Nota1 = nota1[i];
+//   var Nota2 = nota2[i];
+//   var m = media(Nota1,Nota2)
+//   console.log(
+//     "Aluno: " +
+//       alunos[i] +
+//       " - Primeira nota: " +
+//       Nota1 +
+//       " - Segunda nota: " +
+//       Nota2 +
+//       " - Media: " +
+//       m+" voce foi: "+passou(m)
+//   );
+// }
+
+// var alunos = ["Igor", "Maria", "Jose", "Mariana", "Joao", "Leo"];
+// var nota1 = [5.6, 7.6, 4.8, 6.0, 8.6, 9.0];
+// var nota2 = [8.6, 8.9, 5.8, 8.0, 7.4, 6.6];
+
+// function media(n1,n2) {
+//   return (n1 + n2) / 2;
+// }
+
+// for (i in alunos) {
+//   var n1 = nota1[i]
+//   var n2 = nota2[i]
+//   var m = media(n1, n2)
+//   console.log("aluno: "+alunos[i]+" nota 1: "+n1+"nota 2: "+n2+" media :"+m+"voce foi: "+passou(m))
+// }
+
+// function passou(m) {
+//   if (m > 7) {
+//     return "aprovado"
+//   } else {
+//     return "reprovado"
+//   }
+// }
+
+// var alunos = ["Noemia", "Robson"]
+// console.log(alunos[1])
+
+// var pessoa = {
+//   nome: "Robson",
+//   idade: 31,
+//   cidade: "buzios"
+// }
+// console.log(pessoa.idade)
+
+// lista com nome do aluno, separado por nota 1 , nota 2 e media, posso ter tambem um valor falando se esta aprovado ou reprovado.
+
+// var alunos = ["Igor", "Robson", "Patricia", "Joao"];
+// var nota1 = [7.0, 7.9, 8.2, 7.3];
+// var nota2 = [8.0, 9.9, 7.4, 6.3];
+
+// function media(n1, n2) {
+//   return (n1 + n2) / 2;
+// }
+
+// for (i in alunos) {
+//   var n1 = nota1[i];
+//   var n2 = nota2[i];
+//   var m = media(n1, n2);
+//   console.log(
+//     "O aluno: " +
+//       alunos[i] +
+//       " obteve nota 1 de : " +
+//       n1 +
+//       " nota 2 de: " +
+//       n2 +
+//       " e media de: " +
+//       m +
+//       " voce foi: " +
+//       passou(m)
+//   );
+
+// }
+
+// function passou(m) {
+//   if (m > 7) {
+//     return "passou";
+//   } else {
+//     return "reprovou";
+//   }
+// }
+// var alunos = {
+//   nome: "Robson",
+//   idade: 30,
+//   estadoCivil: "solteiro",
+//   notas: [7.5,6.7,8.8]
+// }
+
+// alunos.matricula = 52;
+// alunos["sobrenome"]="Souza"
+// console.log(alunos.sobrenome)
+
+// var aluno = new Object();
+
+// aluno.nome = "Robson";
+// aluno.idade = 30;
+// aluno.notas = [7.5, 8.0, 9.0]
+
+// console.log(aluno.notas[1])
+
+// var alunos = ["Igor", "Robson", "Maria"];
+// var notasA = [7.1, 8.2, 5.3];
+// var notasB = [8.0, 9.0, 5.5];
+
+// function media(n1, n2) {
+//   return (n1 + n2) / 2;
+// }
+// for (var i in alunos) {
+//   var nota1 = notasA[i]
+//   var nota2 = notasB[i]
+//   var m = media(nota1, nota2)
+//   console.log("O aluno "+alunos[i]+" tirou a nota: "+nota1+"+" +nota2+ " e teve a media "+m+ " ele foi: "+passou(m))
+// }
+// function passou(m) {
+//   if (m > 7) {
+//     return "aprovado"
+//   } else {
+//     return "reprovado"
+//   }
+
+// }
+
+// var alunos = {
+//   nome: "Robson",
+//   idade: 30,
+//   notas: [7.6, 6.0, 8.1],
+// };
+
+// var novaProp = "lastName"
+// alunos[novaProp] = "Oliveira"
+// alunos.matricula = 154;
+// alunos["sobrenome"] = "Souza";
+// console.log(alunos);
+
+// var aluno = {
+//   nome: "Robson",
+//   nota: [8.0, 7.0]
+// };
+// var aluno2 = {
+//   nome: "Joao",
+//   nota: [6.0, 7.0]
+// };
+// console.log(aluno)
+// console.log(aluno2)
+
+// function calcMedia () {
+//     return (this.notas[0] + this.notas[1]) / 2;
+// }
+// var aluno = {
+//   nome: "Igor",
+//   idade: 31,
+//   notas: [9.9, 7.5],
+
+//   media: calcMedia
+// }
+// console.log(aluno.nome)
+// console.log(aluno.media())
+
+// var aluno1 = {
+//   nome: "Joao",
+//   idade: 31,
+//   notas: [9.0, 9.0],
+
+//   media: calcMedia
+// }
+
+// console.log(aluno1.nome)
+// console.log(aluno1.media())
+
+// ARRAY DE OBJETOS
+
+// function criarAluno(nome, n1, n2) {
+//   return {
+//     nome: nome,
+//     nota1: n1,
+//     nota2: n2,
+//     media: function () {
+//       return (this.nota1 + this.nota2) / 2;
+//     },
+//   };
+// }
+
+
+
+// var turma = [criarAluno("Igor", 8, 9), criarAluno("Joao", 7, 4), criarAluno("Marcela",9,6)];
+
+// var aluno = turma[2];
+
+// turma.forEach(function (i) {
+//   console.log(i)
+// })
+
+// function aluno(nome, n1, n2) {
+//   this.nome = nome;
+//   this.nota1 = n1;
+//   this.nota2 = n2;
+
+//   this.media = function () {
+//     return (this.nota1 + this.nota2) / 2;
+//   }
+// }
+
+// var a = new aluno("Igor", 8, 9)
+// console.log(a)
+// console.log(a.media())

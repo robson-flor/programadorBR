@@ -461,13 +461,19 @@
 
 // var d = new Date(12476541165);
 
-
 // var mes = ["Jan", "Fev", "Mar", "Abril", "Maio", "Jun", "Jul", "Ago", "Set","Out", "Nov", "Dez"]
-
 
 // console.log(d)
 // console.log(mes[d.getMonth()])
-// console.log(d.getTime()) 
+// console.log(d.getTime())
 // console.log(d.setFullYear(2009))
 // console.log(d.setHours(9,35))
 // console.log(d)
+
+// var numero1 = 4;
+// let numero2 = 5;
+// const numero3 = true;
+
+// console.log(numero1);
+// console.log(numero2);
+// console.log(numero3);

@@ -424,8 +424,6 @@
 //   };
 // }
 
-
-
 // var turma = [criarAluno("Igor", 8, 9), criarAluno("Joao", 7, 4), criarAluno("Marcela",9,6)];
 
 // var aluno = turma[2];
@@ -447,3 +445,29 @@
 // var a = new aluno("Igor", 8, 9)
 // console.log(a)
 // console.log(a.media())
+
+// var a = {
+//   nome: "Igor",
+//   sobrenome: "Oliveira",
+// };
+// console.log(a);
+
+// function obj(n, s) {
+//   return { nome: n, sobrenome: s };
+// }
+
+// var a = obj("Igor", "Oliveira");
+// console.log(a);
+
+// var d = new Date(12476541165);
+
+
+// var mes = ["Jan", "Fev", "Mar", "Abril", "Maio", "Jun", "Jul", "Ago", "Set","Out", "Nov", "Dez"]
+
+
+// console.log(d)
+// console.log(mes[d.getMonth()])
+// console.log(d.getTime()) 
+// console.log(d.setFullYear(2009))
+// console.log(d.setHours(9,35))
+// console.log(d)

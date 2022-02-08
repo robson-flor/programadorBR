@@ -11,19 +11,61 @@
 .paragrafo{
   color: red;
 }
+span{
+  display: none;
+}
+h1 {
+  cursor: pointer;
+}
+div{
+  margin: 10px;
+  width: 60px;
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: cornflowerblue;
+  color: aliceblue;
+}
   </style>
 
   <script>
-    
+    // function changeH1(thisElement){
+    //   let entrada = document.getElementById("texto")
+    //   let h1 = document.getElementsByTagName("h1")[0]
+    //   h1.innerText = thisElement.value
+    // }  
+
+//     function hideH1() {
+//   let h1 = document.getElementsByTagName("h1")[0]
+//   h1.style.display = "none";
+// }
+
+function onOver(elemento){
+elemento.style.backgroundColor = "red"
+}
+function onOut(elemento){
+  elemento.style.backgroundColor = "cornflowerblue"
+}
+
   </script>
 
 </head>
-<body>
-  
-  <h1>TítuloH1</h1>
-  <p class="paragrafo" id="p1">parágrafo1</p>
-  <p class="paragrafo">parágrafo2</p>
-  <p>parágrafo3</p>
-  
+<body onload="console.log('Pagina completamente carregada')">
+
+  <h1>Clique em mim</h1>
+
+  <!-- <input id="texto" type="text" oninput="changeh1(this)"> -->
+  <img src="../socialPack/about.png" style="background-color: rgb(46, 9, 255);" alt="" >
+
+<div onmouseover="onOver(this)" onmouseout="onOut(this)">Click</div>
+
+<p onmouseover="onOver(this)" onmouseout="onOut(this)">Paragrafo de teste</p>
+
+
+
+
+<!-- <h1>Clique em mim</h1>
+
+<input type="text" oninput="changeH1(this)"> -->
+
 </body>
 </html>

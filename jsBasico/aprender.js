@@ -478,3 +478,21 @@
 // console.log(numero2);
 // console.log(numero3);
 
+// let car = {
+//   brand: "Honda",
+//   getBrand: function () {
+//     return this.brand;
+//   }
+// }
+// let brand = car.getBrand()
+// console.log(brand)
+
+// function h1Click() {
+//   console.log("fui clicada")
+// }
+// function changeh1(input) {
+  
+//   let h1 = document.getElementsByTagName("h1")[0]
+//   h1.innerHTML = input.value;
+// }
+

@@ -9,161 +9,18 @@
   <title>aprendendo</title>
 
   <style>
-    /* .paragrafo{
-  color: red;
-}
-span{
-  display: none;
-}
-h1 {
-  cursor: pointer;
-}
-div{
-  margin: 10px;
-  width: 60px;
-  padding: 10px;
-  font-size: 1.5rem;
-  background-color: cornflowerblue;
-  color: aliceblue;
-} */
+
   </style>
 
   <script>
-    // function changeH1(thisElement){
-    //   let entrada = document.getElementById("texto")
-    //   let h1 = document.getElementsByTagName("h1")[0]
-    //   h1.innerText = thisElement.value
-    // }  
-
-    //     function hideH1() {
-    //   let h1 = document.getElementsByTagName("h1")[0]
-    //   h1.style.display = "none";
-    // }
-
-    // function onOver(elemento){
-    // elemento.style.backgroundColor = "red"
-    // }
-    // function onOut(elemento){
-    //   elemento.style.backgroundColor = "cornflowerblue"
-    // }
-    // function f(e){
-    //   console.log("funcionando")
-    //   console.log(e)
-    //   console.log(this)
-    // }
-
-    // function f1(e){
-    //   console.log("tambem funcionando")
-    //   console.log(e)
-    //   console.log(e.target)
-    //   console.log(this)
-    // }
-    // window.onload = function(){
-    //   let h1 = document.getElementsByTagName("h1")[0]
-    //   h1.addEventListener("click", f1)
-    // }
-    // window.onload = function (){
-    //   let h1 = document.getElementsByTagName("h1")
-
-    //   for(h of h1){
-    //     console.log(h)
-    //     h.addEventListener("click", qop)
-    //   }
-    //   function qop(e){
-    //     let t = e.target;
-    //     console.log(t.parentElement)
-    //   } 
-    // }
-    // let n = Math.ceil(5.01);
-    // console.log(n)
-
-    // let a = {
-    //   nome: "Robson",
-    //   idade: 30,
-    //   cidade: "Maringá"
-    // }
-
-    // let b = JSON.stringify(a)
-    // let a2 = '{"nome":"fabio","nota":7.8}';
-
-    // let b2 = JSON.parse(a2)
-
-    // console.log(a)
-    // console.log(b)
-
-    // console.log(a2)
-    // console.log(b2)
-
-    // localStorage.setItem("nome", "Robson");
-    // let n = localStorage.getItem("nome")
-    // console.log(n)
-      // localStorage.removeItem("nome")
-      // console.log(n)
-      onload = function(){
-        let nome = localStorage.getItem("nome");
-        let h1 = document.getElementById("nome");
-        h1.innerHTML = nome;
-      }
-
-      function atualizar(e){
-        let valor = e.value
-        console.log(valor)
-
-        let h1 = document.getElementById("nome")
-        h1.innerHTML = valor;
-        localStorage.setItem("nome", valor);
-      }
-
+    
   </script>
-
 </head>
-
 <body>
 
   <h1 id="nome"></h1>
   <input type="text" name="" id="" oninput="atualizar(this)">
-  <!--onload="loaded()"-->
-  <!-- <div id="d1">
-    <h1>Titulo</h1>
-    <p>Qualquer Texto</p>
-  </div>
-  <div id="d2">
-    <h1>Titulo 2</h1>
-    <p>Qualquer Texto 2</p>
-  </div> -->
-
-
-  <!-- <h1 onclick="f(this)">clique</h1> -->
-
-  <!-- <h1 onclick="ret3()">clique em mim</h1> -->
-
-  <!-- <h1 id="t1">titulo 1</h1>
-  <h2 id="t2">titulo 2</h2>
-
-
-  <script>
-    let t1 = document.getElementById("t1");
-    let t2 = document.getElementById("t2");
-
-    t1.onclick = colocarEmMaisculo;
-    t2.onclick = colocarEmMaisculo;
-
-    function colocarEmMaisculo(){
-      this.innerHTML = this.innerHTML.toUpperCase();
-    }
-  </script> -->
-
-  <!-- <input id="texto" type="text" oninput="changeh1(this)"> -->
-  <!-- <img src="../socialPack/about.png" style="background-color: rgb(46, 9, 255);" alt="" >
-
-<div onmouseover="onOver(this)" onmouseout="onOut(this)">Click</div>
-
-<p onmouseover="onOver(this)" onmouseout="onOut(this)">Paragrafo de teste</p> -->
-
-  <!-- <h1>Clique em mim</h1>
-
-<input type="text" oninput="changeH1(this)"> -->
-
+  
 </body>
 
 </html>

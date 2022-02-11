@@ -491,8 +491,38 @@
 //   console.log("fui clicada")
 // }
 // function changeh1(input) {
-  
+
 //   let h1 = document.getElementsByTagName("h1")[0]
 //   h1.innerHTML = input.value;
 // }
+
+// function onLoad() {
+//   let t = document.getElementById("titulo");
+//   t.innerText = "qualquer";
+// }
+// function loaded() {
+//   let t = document.getElementById("titulo")
+//   // t.onclick = mudarText;
+//   t.addEventListener("mouseover", mudarText)
+//   t.addEventListener("mouseout", mouseout)
+// }
+
+// function mudarText() {
+//   this.innerHTML = "Novo Texto"
+// }
+
+// function mouseout() {
+//   this.innerHTML = "mouse fora"
+// }
+
+// function ret3() {
+//   console.log(3);
+//   return 5;
+// }
+
+// function a() {
+//   console.log(10)
+//   return 5;
+// }
+// let b = a()
 

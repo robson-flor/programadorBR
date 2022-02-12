@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    //numbers
+    const numero = 5;
+    const numeroToString = numero.toString();
+    console.log(`string: ${numeroToString}`)
+
+    console.log(typeof (numero.toString()))
+
+    //bool
+
+    console.log(2 == 2)
+
+    //null & undefined
+    const x = null;
+    console.log(x)
+    const y = undefined;
+    console.log(y)
+
+    const names = ['Felipe', 'Joao', 'Julia', 10, false];
+
+    const joao = names[1]
+    console.log(joao)
+
+    names.push('Pedro')
+    names.unshift('Robson')
+    names.unshift('Fernanda')
+    names.pop()
+    names.pop()
+    names.pop()
+    names[1] = 'Natalia'
+    names[4] = 'Gessica'
+    console.log(names)
+    const indexOfFelipe = names.indexOf('Felipe')
+
+    const sortedNames = names.sort()
+    console.log(sortedNames)
+    console.log(indexOfFelipe)
+    console.log(names.length)
+    
+
+    const namesIsArray = Array.isArray(names)
+
+    const nIsArray = Array.isArray(numero)
+    console.log(nIsArray)
+    console.log(namesIsArray)
+    const felipe = Array.isArray(indexOfFelipe)
+
+    console.log(felipe)
+  </script>
+</body>
+
+</html>

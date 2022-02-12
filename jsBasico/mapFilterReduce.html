@@ -28,6 +28,21 @@
 
 
     //FILTER
+    const ages = [8,13,27,30,22,40];
+
+    const agesFilter = ages.filter(function(i){
+      return i % 2 === 0
+    })
+    console.log(agesFilter)
+
+    //REDUCE
+    const Ages = [8,13,27,30,22,40];
+
+    const sumOfAges = Ages.reduce(function(i,accumulator){
+      return accumulator + i;
+    },0);
+    console.log(sumOfAges)
+
     
 
   </script>

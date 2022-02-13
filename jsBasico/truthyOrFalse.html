@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>truthyOrFalse</title>
+</head>
+<body>
+  <script>
+const x = ''; //STRING VAZIA, 0, NULL, UNDEFINED - FALSE
+
+const y = 0;
+console.log(!!y)
+
+const a = null;
+console.log(!!a)
+
+const b = undefined;
+console.log(!!b)
+
+console.log(!!x)
+if(x){
+  console.log(x)
+}
+console.log('---------')
+
+const list = []; //LISTA VAZIA É TRUE
+const object = {}; //OBJETO TAMBÉM É TRUE
+console.log(!![])
+console.log(!!object)
+
+if (list.length > 0){
+  console.log(list)
+}
+
+const lista = [];
+const objeto = [];
+
+if (!list) {
+  console.log(list)
+}
+
+  </script>
+
+
+
+
+
+</body>
+</html>

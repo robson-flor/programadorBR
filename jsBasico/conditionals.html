@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>condicionais</title>
+</head>
+
+<body>
+  <script>
+    const sum = 1 + 2;
+    //IF ELSE
+    if (sum === 2) {
+      console.log('sum is true!')
+    } else if (sum === 3) { //ELSE IF - ADIOCIONA MAIS CONDICOES DE CHECAGEM AO BLOCO
+      console.log('sum is 3!')
+    }
+    else {
+      console.log('sum is false!')
+    }
+    //&&
+    //||
+    const sum1 = 2 + 2
+    const sum2 = 3 + 3
+
+    if (sum1 === 4 && sum2 === 6) {
+      console.log('sum1 is 4 and sum2 is 6');
+    }
+    if (sum1 === 4 || sum2 === 6) {
+      console.log('um ou outro passou no teste')
+      console.log('------------------------------------------')
+    }
+    //TERNARY OPERATOR
+    //mesma coisa que o if abaixo
+    let number = sum === 2 ? 2 : 4;
+
+    // if(sum ===2){
+    //   number = 2;
+    // }else{
+    //   number = 4
+    // }
+    console.log(number)
+    console.log('------------------------------------------')
+
+    //SWITCH
+    const car = 'fusca'
+
+    switch (car) {
+      case 'Mercedes':
+        console.log('Mercedes is beautiful')
+        break;
+      case 'Ferrari':
+        console.log('Ferrari is very red!')
+        break;
+      case 'Tesla':
+        console.log('Tesla is very smart!')
+        break;
+      default:
+        console.log('don`t understand')
+    }
+
+  </script>
+</body>
+
+</html>

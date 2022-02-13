@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>obj</title>
+</head>
+<body>
+  <script>
+    const person = {
+      firstName: 'Robson',
+      lastName: 'Flor',
+      age: 30,
+      hobbies: ['ler','jogar cs','ver filme','correr'],
+      dog: {
+        name:'Nina',
+        age: 4,
+      },
+    };
+    // const firstName = person.firstName;
+    // const lastName = person.lastName;
+    // const age = person.age;
+    // const hobbies = person.hobbies;
+
+    const {firstName,lastName,age:idade,hobbies, dog:{name:dogName,age},} = person;
+
+
+    const run = person.hobbies[3]
+
+    console.log(firstName+" "+lastName)
+    console.log(idade)
+    console.log(hobbies)
+
+    // person.dog = 'Nina'
+  
+console.log(dogName,age)
+console.log(person.dog.age)
+
+//LISTAS COM OBJETOS
+const todo = [{
+  id: 1,
+  description: 'Estudar programacao',
+  isCompleted: false
+},
+{
+  id:2,
+  description: 'Ler',
+  isCompleted: true,
+},
+{
+  id:3,
+  description: 'Treinar',
+  isCompleted: true,
+},
+];
+
+const desc = todo[2].description
+
+console.log(desc)
+
+  </script>
+
+
+</body>
+</html>

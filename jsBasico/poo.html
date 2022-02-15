@@ -8,18 +8,61 @@
 </head>
 <body>
   <script>
+    //CLASSES
     class Person{
       constructor(firstName, lastName, age){
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
       }
+      getFullName(){
+        console.log(`${this.firstName} ${this.lastName}`);
+      }
+      static speak() {
+        console.log('Hello World!');
+      }
     }
-    const person = new Person('Jane','Doe',40)
-    console.log(person);
 
+    
+    const person = new Person('Jane','Doe',40)
+    console.log(person)
+    
+    
     const person2 = new Person('Robson','Flor',30)
     console.log(person2)
+    
+    const person3 = new Person('Mirna','Candido',30)
+    console.log(person3)
+    // console.log(Person)
+    person.getFullName()
+    Person.speak()
+    // MÉTODOS -- speak
+
+    // HERANÇA
+    class Animal {
+      constructor(name){
+        this.name = name;
+      }
+      speak(){
+        console.log(`${this.name} made some noise!`);
+      }
+    }
+
+    class Dog extends Animal {
+      constructor(name){
+        super(name);
+      }
+        speak(){
+          console.log(`${this.name} barked!`)
+        }
+      }
+    
+
+    const animal = new Animal('Simba');
+    const dog = new Dog('Bob');
+
+    animal.speak()
+    dog.speak();
 
 
 

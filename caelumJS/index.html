@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+  
+  function condicao(){
+    while(form1.nome.value==""){
+    alert("Favor preencher o campo");
+    form1.nome.value=prompt("Digite seu nome agora","");
+  }
+  alert("obrigado, "+form1.nome.value);
+}
+  </script>
+<pre>
+  <form action="" name="form1">
+    Nome:
+    <input type="text" name="nome" onblur="condicao(this.value)">
+  </form>
+</pre>
+  
+</body>
+
+</html>

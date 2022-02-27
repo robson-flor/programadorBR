@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  function teste() {
+    if(form1.campo1.value ==""){
+      alert("Favor preencher");
+      return(false);
+    }else{
+      return(true);
+    }
+  }
+</script>
+
+  <form action="" name="form1" onsubmit="teste()">
+    <label for="form1">Entre com seu nome:</label>
+  <input type="text" name="campo1" id="">
+  <input type="submit" name="" id="" value="Submit">
+</form>
+
+
+
+</body>
+</html>

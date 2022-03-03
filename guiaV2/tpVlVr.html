@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    let s = "test", n = 1, b = true
+    let S = new String(s);
+    let N = new Number(n);
+    let B = new Boolean(b);
+    console.log(s)
+
+    let h = "hello";
+    h.toUpperCase(h);
+    console.log(h.toUpperCase())
+
+    let o = {
+      x: 1
+    };
+    o.x = 2;
+    o.y = 3;
+
+    console.log(o);
+
+    let a = [1, 2, 3];
+    a[0] = 5
+    a[3] = 6
+    console.log(a);
+
+    let ob = { x: 1 }, op = { x: 1 };
+    console.log(ob === op)
+
+    let ab = [], ap = []
+    console.log(ab === ap)
+
+    let a1 = [];
+    let b1 = a1;
+    b1[0] = 1;
+    console.log(a1===b1)
+
+    copiando um array a para b
+    var a = ['a', 'b', 'c'];
+    var b = [];
+    for (var i = 0; i < a.length; i++) {
+      b[i] = a[i];
+    }
+    console.log(b)
+
+    function equalArrays(a, b) {
+      if (a.length != b.length) return false;
+
+      for (var i = 0; i < a.length; i++)
+      if(a[i] !== b[i]) return false;
+
+      return true;
+
+    }
+    console.log(equalArrays(a, b))
+
+
+    let c = "7"*"4";
+    console.log(c)
+
+    let undf = 1
+
+    console.log(undf)
+
+    console.log(null == undefined)
+    console.log("0"==0)
+    console.log(0 == false)
+    console.log("0"==false)
+
+    console.log(Number("3"))
+    console.log(String(false))
+    console.log(Boolean([]))
+    console.log(Object(3))
+
+    console.log(parseInt("11", 2))
+    console.log(parseInt("ff", 16))
+    console.log(parseInt("zz", 36))
+    console.log(parseInt("077", 8))
+    console.log(parseInt("077", 10))
+
+    let bl = new Boolean()
+    console.log(bl)
+
+    let obj = {
+      x:1,
+      y:2
+    }
+
+    console.log(obj.toString())
+
+    let data = new Date(2022,02,3)
+    console.log(data)
+    console.log(data.valueOf())
+
+
+
+
+  </script>
+</body>
+
+</html>
